@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { MapPin, PartyPopper, Gift, Calendar, Clock, Navigation } from 'lucide-react';
-import birthday_1 from './public/birthday_1.jpeg'
-import birthday_2 from './public/birthday_2.jpeg'
-import birthday_3 from './public/birthday_3.jpeg'
+import birthday_1 from './images/birthday_1.jpeg'
+import birthday_2 from './images/birthday_2.jpeg'
+import birthday_3 from './images/birthday_3.jpeg'
 function App() {
   const imagesRef = useRef<HTMLDivElement>(null);
   const [timeLeft, setTimeLeft] = useState({
