@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/birthday-postcard/', // Add this line - replace 'birthday-postcard' with your repo name
+  base: '/', // Add this line - replace 'birthday-postcard' with your repo name
 });
